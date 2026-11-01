@@ -8,6 +8,12 @@ By **celloboy126**, with Codex.
 **[Download the latest release](https://github.com/celloboy126/D2R-Multigate-Launcher/releases/latest)**
 — choose **Setup.exe** to install or **Portable.zip** to extract and run.
 
+## lowHD / QoL mod downloads
+
+**Last updated: October 31, 2026.** Download the standalone mods from the **[lowHD/QoL release Assets](https://github.com/celloboy126/lowHD/releases/tag/v2026.10.31)**: [main](https://github.com/celloboy126/lowHD/releases/download/v2026.10.31/lowHDmain.zip), [filler](https://github.com/celloboy126/lowHD/releases/download/v2026.10.31/lowHDfiller.zip), [min](https://github.com/celloboy126/lowHD/releases/download/v2026.10.31/lowHDmin.zip), [partial](https://github.com/celloboy126/lowHD/releases/download/v2026.10.31/lowHDpartial.zip), or [QoL](https://github.com/celloboy126/lowHD/releases/download/v2026.10.31/QoL.zip). The launcher bundles the same verified mod contents.
+
+**Planned:** partial will be reworked toward main's speed while retaining important game visuals, without main's black-world graphics. This is not included yet. All lowHD variants and QoL are planned to be updated shortly after the **Season 16 patch** releases.
+
 ## Interface previews
 
 These previews are rendered from the actual interface with **fictional accounts
@@ -39,7 +45,7 @@ The following panels show generic demo/default settings, not an author's profile
 - Individual and batch account launching, region selection and shared macros.
 - Configurable hotkeys, broadcasting, held input and live clickable thumbnails.
 - Online make/join, follow, benching, exclusions and separate offline modes.
-- BO/Enchant support and parking, with guarded visual recognition.
+- BO support, positioning-only Enchantress and parking, with guarded visual recognition.
 - Compact TZ/D-Clone information from [d2emu.com](https://d2emu.com).
 - Bundled lowHDmain, lowHDfiller, lowHDmin, lowHDpartial and QoL mods.
 - Four dark palettes, twenty interface languages and project-verified updates.
@@ -55,7 +61,7 @@ the lower right. Source-code archives generated automatically by GitHub are not
 the launcher download. This public repository contains binaries and documentation.
 
 The five bundled mod packages match the checksum-verified
-[lowHD/QoL release](https://github.com/celloboy126/lowHD/releases/tag/v2026.10.27).
+[lowHD/QoL release](https://github.com/celloboy126/lowHD/releases/tag/v2026.10.31).
 
 ## Compatibility and script behavior
 
@@ -65,12 +71,8 @@ macros are also available. No game-process memory is read or written, and no gam
 code is injected. This is not Blizzard approval or a guarantee against enforcement;
 read **Configure → How scripts operate** and choose which features to use.
 
-Support travel currently requires the tested **1920 × 1200, normal centered
-automap, readable brightness and English game UI**. Unknown routes stop safely.
-Only validated Act I outside-town variants and Act IV outside-town are enabled;
-other layouts/routes remain deferred. Some non-town waypoint retargeting can stop
-when the hit location cannot be confirmed. See release notes for current limits.
-These support limits do not describe make/join's broader calibration support.
+Support travel requires the tested **1920 × 1200 normal centered automap**, readable brightness and English game UI. Enabled routes are **Act I town to just outside town** and **Act IV town to River of Flame**. Start in the corresponding town. The enchantress can also stay in the current town; **automatic Enchant casting is disabled**. Support changes wait for the next scripted game entry. Some waypoint interactions still need a brief cursor movement. These restrictions do not describe make/join's broader calibration support.
+
 Language packs include advanced operating help; community review is welcome and
 untranslated messages fall back to English.
 
@@ -103,3 +105,5 @@ shupershuff's D2R launcher, Gimli's Tinymod, mininexus mod, numerous modders on
 inven. Third-party notices are included in the package's `licenses`.
 
 Optional support: [Venmo @celloboy126](https://venmo.com/celloboy126).
+
+
