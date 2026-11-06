@@ -50,6 +50,13 @@ The following panels show generic demo/default settings, not an author's profile
 - Bundled lowHDmain, lowHDfiller, lowHDmin, lowHDpartial and QoL mods.
 - Four dark palettes, twenty interface languages and project-verified updates.
 
+## New in 0.16.3
+
+- Per-account low-resource idle with automatic script/observer wake-up.
+- More reliable autonomous parking, title-screen startup, and retries while waiting for the host.
+- Live parking timing controls and cleaner account selection.
+- Faster repeated follower joins and hardened waypoint-panel recovery.
+
 ## New in 0.16.2
 
 - Optional clickable, highlighted account rows that replace the Details button; disabled by default.
