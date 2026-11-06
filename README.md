@@ -10,9 +10,9 @@ By **celloboy126**, with Codex.
 
 ## lowHD / QoL mod downloads
 
-**Last updated: October 31, 2026.** Download the standalone mods from the **[lowHD/QoL release Assets](https://github.com/celloboy126/lowHD/releases/tag/v2026.10.31)**: [main](https://github.com/celloboy126/lowHD/releases/download/v2026.10.31/lowHDmain.zip), [filler](https://github.com/celloboy126/lowHD/releases/download/v2026.10.31/lowHDfiller.zip), [min](https://github.com/celloboy126/lowHD/releases/download/v2026.10.31/lowHDmin.zip), [partial](https://github.com/celloboy126/lowHD/releases/download/v2026.10.31/lowHDpartial.zip), or [QoL](https://github.com/celloboy126/lowHD/releases/download/v2026.10.31/QoL.zip). The launcher bundles the same verified mod contents.
+**Last updated: November 5, 2026.** Download the standalone mods from the **[lowHD/QoL release Assets](https://github.com/celloboy126/lowHD/releases/tag/v2026.11.05)**: [main](https://github.com/celloboy126/lowHD/releases/download/v2026.11.05/lowHDmain.zip), [filler](https://github.com/celloboy126/lowHD/releases/download/v2026.11.05/lowHDfiller.zip), [min](https://github.com/celloboy126/lowHD/releases/download/v2026.11.05/lowHDmin.zip), [partial](https://github.com/celloboy126/lowHD/releases/download/v2026.11.05/lowHDpartial.zip), or [QoL](https://github.com/celloboy126/lowHD/releases/download/v2026.11.05/QoL.zip). The launcher bundles the same verified mod contents.
 
-**Planned:** partial will be reworked toward main's speed while retaining important game visuals, without main's black-world graphics. This is not included yet. All lowHD variants and QoL are planned to be updated shortly after the **Season 16 patch** releases.
+**Fresh November 5 packages:** all four lowHD variants and QoL were refreshed, including lowHDpartial. Further partial performance tuning is planned. All variants and QoL are planned to be updated shortly after the **Season 16 patch** releases.
 
 ## Interface previews
 
@@ -50,6 +50,14 @@ The following panels show generic demo/default settings, not an author's profile
 - Bundled lowHDmain, lowHDfiller, lowHDmin, lowHDpartial and QoL mods.
 - Four dark palettes, twenty interface languages and project-verified updates.
 
+## New in 0.16.2
+
+- Optional clickable, highlighted account rows that replace the Details button; disabled by default.
+- Game window titles can use the original title, launch number, or account label.
+- Optional lowHDpartial expansion from already extracted game data; only missing files are copied.
+- More reliable parking, improved support routes and background waypoint controls.
+- All five November 5 mod packages bundled.
+
 ## Getting started
 
 Install **Setup.exe**, or extract **Portable.zip** and run
@@ -61,7 +69,7 @@ the lower right. Source-code archives generated automatically by GitHub are not
 the launcher download. This public repository contains binaries and documentation.
 
 The five bundled mod packages match the checksum-verified
-[lowHD/QoL release](https://github.com/celloboy126/lowHD/releases/tag/v2026.10.31).
+[lowHD/QoL release](https://github.com/celloboy126/lowHD/releases/tag/v2026.11.05).
 
 ## Compatibility and script behavior
 
@@ -71,7 +79,7 @@ macros are also available. No game-process memory is read or written, and no gam
 code is injected. This is not Blizzard approval or a guarantee against enforcement;
 read **Configure → How scripts operate** and choose which features to use.
 
-Support travel requires the tested **1920 × 1200 normal centered automap**, readable brightness and English game UI. Enabled routes are **Act I town to just outside town** and **Act IV town to River of Flame**. Start in the corresponding town. The enchantress can also stay in the current town; **automatic Enchant casting is disabled**. Support changes wait for the next scripted game entry. Some waypoint interactions still need a brief cursor movement. These restrictions do not describe make/join's broader calibration support.
+Support navigation has its strongest test coverage at **1920 × 1200**, with a readable normal centered automap and English game UI. Authored town-to-waypoint routes for Acts I–V and all waypoint destinations are enabled, along with Act I just outside town. Other resolutions and destinations still need wider community testing. Enchantress positioning can also stay in towns; **automatic Enchant casting remains disabled**. Changes wait for the next scripted game entry. Town waypoint opening and panel selection use background clicks; the game's own panel-opening cursor shift is immediately reversed. Older interaction fallbacks may briefly borrow the pointer. Unavailable acts/waypoints show an error and select Act I outside for the next game. Make/join has broader calibration support than support navigation.
 
 Language packs include advanced operating help; community review is welcome and
 untranslated messages fall back to English.
@@ -107,3 +115,7 @@ inven. Third-party notices are included in the package's `licenses`.
 Optional support: [Venmo @celloboy126](https://venmo.com/celloboy126).
 
 
+
+## Optional lowHDpartial expansion
+
+After installing partial and extracting game data, use **Configure → lowHD / QoL mods → Copy extracted data into lowHDpartial**. The launcher previews missing-file count and disk space. It copies from `Data/global`, `Data/hd` and `Data/local`, preserving every existing partial asset, empty override and mod build marker. No other mod is expanded. Launch with `-mod lowHDpartial`; `-direct` is not needed. This can use tens of GB of additional disk space. A permitted bundled-mod update replaces the mod folder, so update extracted data and repeat the copy afterward. Loading improvements depend on storage and the assets being used.
