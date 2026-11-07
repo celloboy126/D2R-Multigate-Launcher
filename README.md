@@ -50,6 +50,13 @@ The following panels show generic demo/default settings, not an author's profile
 - Bundled lowHDmain, lowHDfiller, lowHDmin, lowHDpartial and QoL mods.
 - Four dark palettes, twenty interface languages and project-verified updates.
 
+## New in 0.16.4
+
+- Private diagnostics and feedback, optional reviewed attachments, and replies in the launcher.
+- Capture/calibration improvements for Windows 10 and different window borders/scaling.
+- Faster active make/join startup and shared follower grace timing.
+- Reliable reopening from shortcuts, expanded language packs, and clearer hotkey guidance.
+
 ## New in 0.16.3
 
 - Per-account low-resource idle with automatic script/observer wake-up.
