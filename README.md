@@ -50,6 +50,13 @@ The following panels show generic demo/default settings, not an author's profile
 - Bundled lowHDmain, lowHDfiller, lowHDmin, lowHDpartial and QoL mods.
 - Four dark palettes, twenty interface languages and project-verified updates.
 
+## New in 0.16.5
+
+- More reliable screen recognition with outside thumbnails, short/wide windows and automatic layout recovery.
+- Parking fixes for live maker/joiner changes, stale lobby fields, failed joins and support handoffs.
+- Solo commands preserve unrelated accounts' idle states.
+- Clearer diagnostics privacy wording and small About refinements.
+
 ## New in 0.16.4
 
 - Private diagnostics and feedback, optional reviewed attachments, and replies in the launcher.
