@@ -10,9 +10,9 @@ By **celloboy126**, with Codex.
 
 ## lowHD / QoL mod downloads
 
-**Last updated: November 5, 2026.** Download the standalone mods from the **[lowHD/QoL release Assets](https://github.com/celloboy126/lowHD/releases/tag/v2026.11.05)**: [main](https://github.com/celloboy126/lowHD/releases/download/v2026.11.05/lowHDmain.zip), [filler](https://github.com/celloboy126/lowHD/releases/download/v2026.11.05/lowHDfiller.zip), [min](https://github.com/celloboy126/lowHD/releases/download/v2026.11.05/lowHDmin.zip), [partial](https://github.com/celloboy126/lowHD/releases/download/v2026.11.05/lowHDpartial.zip), or [QoL](https://github.com/celloboy126/lowHD/releases/download/v2026.11.05/QoL.zip). The launcher bundles the same verified mod contents.
+**Last updated: November 10, 2026.** Download the standalone mods from the **[lowHD/QoL release Assets](https://github.com/celloboy126/lowHD/releases/tag/v2026.11.10)**: [main](https://github.com/celloboy126/lowHD/releases/download/v2026.11.10/lowHDmain.zip), [filler](https://github.com/celloboy126/lowHD/releases/download/v2026.11.10/lowHDfiller.zip), [min](https://github.com/celloboy126/lowHD/releases/download/v2026.11.10/lowHDmin.zip), [partial](https://github.com/celloboy126/lowHD/releases/download/v2026.11.10/lowHDpartial.zip), or [QoL](https://github.com/celloboy126/lowHD/releases/download/v2026.11.10/QoL.zip). The launcher bundles the same verified mod contents.
 
-**Fresh November 5 packages:** all four lowHD variants and QoL were refreshed, including lowHDpartial. Further partial performance tuning is planned. All variants and QoL are planned to be updated shortly after the **Season 16 patch** releases.
+**November 10 refresh:** all five variants include the gold visual badges, rectangular player-count markers and current reviewed mod files. Main includes the compact hair-control fix; filler has a translucent HUD so the counters remain visible. Further lowHDpartial performance tuning remains planned.
 
 ## Interface previews
 
@@ -44,11 +44,18 @@ The following panels show generic demo/default settings, not an author's profile
 
 - Individual and batch account launching, region selection and shared macros.
 - Configurable hotkeys, broadcasting, held input and live clickable thumbnails.
-- Online make/join, follow, benching, exclusions and separate offline modes.
+- Online make/join, follow, benching, exclusions and automatic or dedicated offline entry.
 - BO support, positioning-only Enchantress and parking, with guarded visual recognition.
 - Compact TZ/D-Clone information from [d2emu.com](https://d2emu.com).
 - Bundled lowHDmain, lowHDfiller, lowHDmin, lowHDpartial and QoL mods.
 - Four dark palettes, twenty interface languages and project-verified updates.
+
+## New in 0.17.0
+
+- Badge-first screen/panel recognition and compact player counters across all bundled mods, with legacy fallbacks.
+- Automatic online/offline make-game detection, a separate preferred offline difficulty, and faster confirmed offline entry. Online lobby difficulty stays user-controlled.
+- More reliable cold Ctrl+J game-name reading, panel cleanup, background startup and BO waypoint/shout handling.
+- Refreshed lowHD/QoL downloads, updated translations, and make/join configuration refinements.
 
 ## New in 0.16.5
 
@@ -90,7 +97,7 @@ the lower right. Source-code archives generated automatically by GitHub are not
 the launcher download. This public repository contains binaries and documentation.
 
 The five bundled mod packages match the checksum-verified
-[lowHD/QoL release](https://github.com/celloboy126/lowHD/releases/tag/v2026.11.05).
+[lowHD/QoL release](https://github.com/celloboy126/lowHD/releases/tag/v2026.11.10).
 
 ## Compatibility and script behavior
 
