@@ -10,9 +10,9 @@ By **celloboy126**, with Codex.
 
 ## lowHD / QoL mod downloads
 
-**Last updated: November 10, 2026.** Download the standalone mods from the **[lowHD/QoL release Assets](https://github.com/celloboy126/lowHD/releases/tag/v2026.11.10)**: [main](https://github.com/celloboy126/lowHD/releases/download/v2026.11.10/lowHDmain.zip), [filler](https://github.com/celloboy126/lowHD/releases/download/v2026.11.10/lowHDfiller.zip), [min](https://github.com/celloboy126/lowHD/releases/download/v2026.11.10/lowHDmin.zip), [partial](https://github.com/celloboy126/lowHD/releases/download/v2026.11.10/lowHDpartial.zip), or [QoL](https://github.com/celloboy126/lowHD/releases/download/v2026.11.10/QoL.zip). The launcher bundles the same verified mod contents.
+**Last updated: November 11, 2026.** Download the standalone mods from the **[lowHD/QoL release Assets](https://github.com/celloboy126/lowHD/releases/tag/v2026.11.11)**: [main](https://github.com/celloboy126/lowHD/releases/download/v2026.11.11/lowHDmain.zip), [filler](https://github.com/celloboy126/lowHD/releases/download/v2026.11.11/lowHDfiller.zip), [min](https://github.com/celloboy126/lowHD/releases/download/v2026.11.11/lowHDmin.zip), [partial](https://github.com/celloboy126/lowHD/releases/download/v2026.11.11/lowHDpartial.zip), or [QoL](https://github.com/celloboy126/lowHD/releases/download/v2026.11.11/QoL.zip). The launcher bundles the same verified mod contents.
 
-**November 10 refresh:** all five variants include the gold visual badges, rectangular player-count markers and current reviewed mod files. Main includes the compact hair-control fix; filler has a translucent HUD so the counters remain visible.
+**November 11 refresh:** lowHDmain and lowHDpartial include the latest environment and object asset updates. All five variants include the gold screen and panel badges and rectangular player-count markers.
 
 ## Interface previews
 
@@ -49,6 +49,12 @@ The following panels show generic demo/default settings, not an author's profile
 - Compact TZ/D-Clone information from [d2emu.com](https://d2emu.com).
 - Bundled lowHDmain, lowHDfiller, lowHDmin, lowHDpartial and QoL mods.
 - Four dark palettes, twenty interface languages and project-verified updates.
+
+## New in 0.17.2
+
+- Updated lowHDmain and lowHDpartial packages.
+- More reliable BO waypoint arrival recognition, with A, X and E as the default shout keys for new setups.
+- BO casts and waypoint interactions wait for held modifiers. Outside-town waypoint opening tries a background click.
 
 ## New in 0.17.0
 
@@ -97,7 +103,7 @@ the lower right. Source-code archives generated automatically by GitHub are not
 the launcher download. This public repository contains binaries and documentation.
 
 The five bundled mod packages match the checksum-verified
-[lowHD/QoL release](https://github.com/celloboy126/lowHD/releases/tag/v2026.11.10).
+[lowHD/QoL release](https://github.com/celloboy126/lowHD/releases/tag/v2026.11.11).
 
 ## Compatibility and script behavior
 
