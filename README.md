@@ -12,7 +12,7 @@ By **celloboy126**, with Codex.
 
 **Last updated: November 10, 2026.** Download the standalone mods from the **[lowHD/QoL release Assets](https://github.com/celloboy126/lowHD/releases/tag/v2026.11.10)**: [main](https://github.com/celloboy126/lowHD/releases/download/v2026.11.10/lowHDmain.zip), [filler](https://github.com/celloboy126/lowHD/releases/download/v2026.11.10/lowHDfiller.zip), [min](https://github.com/celloboy126/lowHD/releases/download/v2026.11.10/lowHDmin.zip), [partial](https://github.com/celloboy126/lowHD/releases/download/v2026.11.10/lowHDpartial.zip), or [QoL](https://github.com/celloboy126/lowHD/releases/download/v2026.11.10/QoL.zip). The launcher bundles the same verified mod contents.
 
-**November 10 refresh:** all five variants include the gold visual badges, rectangular player-count markers and current reviewed mod files. Main includes the compact hair-control fix; filler has a translucent HUD so the counters remain visible. Further lowHDpartial performance tuning remains planned.
+**November 10 refresh:** all five variants include the gold visual badges, rectangular player-count markers and current reviewed mod files. Main includes the compact hair-control fix; filler has a translucent HUD so the counters remain visible.
 
 ## Interface previews
 
