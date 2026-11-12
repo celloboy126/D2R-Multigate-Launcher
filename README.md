@@ -50,6 +50,12 @@ The following panels show generic demo/default settings, not an author's profile
 - Bundled lowHDmain, lowHDfiller, lowHDmin, lowHDpartial and QoL mods.
 - Four dark palettes, twenty interface languages and project-verified updates.
 
+## New in 0.17.7
+
+- Password verification now reads the full lobby field so a small first asterisk near the edge can be counted. With OCR enabled, the count must match the pasted password length.
+- Added **Use OCR for game text** under Make/Join, enabled by default. Turning it off skips OCR reads and uses badge, clipboard, and pixel checks where available.
+- Diagnostics now test Windows OCR on a generated image and report whether it was read correctly.
+
 ## New in 0.17.6
 
 - Lobby joins verify that the password paste registered. D2R validates the actual password.
