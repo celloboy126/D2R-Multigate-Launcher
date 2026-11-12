@@ -50,6 +50,12 @@ The following panels show generic demo/default settings, not an author's profile
 - Bundled lowHDmain, lowHDfiller, lowHDmin, lowHDpartial and QoL mods.
 - Four dark palettes, twenty interface languages and project-verified updates.
 
+## New in 0.17.4
+
+- Followers and parked accounts reuse the lobby password after a successful join when the next game uses the same password. This skips focusing, pasting into, and checking the password field on repeat joins.
+- First joins and password changes still verify the field. A join error resets reuse so the next attempt can enter the password again.
+- Bundled lowHDmain files match the current mod. The [standalone mod downloads](https://github.com/celloboy126/lowHD/releases/tag/v2026.11.11.2) are unchanged.
+
 ## New in 0.17.3
 
 - Fixed a clipboard timing issue that could paste a verification marker into the lobby game-name field.
