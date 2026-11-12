@@ -50,6 +50,12 @@ The following panels show generic demo/default settings, not an author's profile
 - Bundled lowHDmain, lowHDfiller, lowHDmin, lowHDpartial and QoL mods.
 - Four dark palettes, twenty interface languages and project-verified updates.
 
+## New in 0.17.5
+
+- Follow uses the configured default game password when one is saved, even if the main account's lobby password field looks empty. The main account's Create password is left as entered.
+- Ctrl+J's game-name recovery verifies the paste before returning focus to the main account.
+- Launcher updates can refresh QoL already applied to extracted Direct-mode data. Enable bundled-mod updates and **Keep bundled QoL applied when updating**, then close all D2R windows.
+
 ## New in 0.17.4
 
 - Followers and parked accounts reuse the lobby password after a successful join when the next game uses the same password. This skips focusing, pasting into, and checking the password field on repeat joins.
