@@ -10,9 +10,9 @@ By **celloboy126**, with Codex.
 
 ## lowHD / QoL mod downloads
 
-**Last updated: November 11, 2026.** Download the standalone mods from the **[lowHD/QoL release Assets](https://github.com/celloboy126/lowHD/releases/tag/v2026.11.11)**: [main](https://github.com/celloboy126/lowHD/releases/download/v2026.11.11/lowHDmain.zip), [filler](https://github.com/celloboy126/lowHD/releases/download/v2026.11.11/lowHDfiller.zip), [min](https://github.com/celloboy126/lowHD/releases/download/v2026.11.11/lowHDmin.zip), [partial](https://github.com/celloboy126/lowHD/releases/download/v2026.11.11/lowHDpartial.zip), or [QoL](https://github.com/celloboy126/lowHD/releases/download/v2026.11.11/QoL.zip). The launcher bundles the same verified mod contents.
+**Last updated: November 11, 2026.** Download the standalone mods from the **[lowHD/QoL release Assets](https://github.com/celloboy126/lowHD/releases/tag/v2026.11.11.2)**: [main](https://github.com/celloboy126/lowHD/releases/download/v2026.11.11.2/lowHDmain.zip), [filler](https://github.com/celloboy126/lowHD/releases/download/v2026.11.11.2/lowHDfiller.zip), [min](https://github.com/celloboy126/lowHD/releases/download/v2026.11.11.2/lowHDmin.zip), [partial](https://github.com/celloboy126/lowHD/releases/download/v2026.11.11.2/lowHDpartial.zip), or [QoL](https://github.com/celloboy126/lowHD/releases/download/v2026.11.11.2/QoL.zip). The launcher bundles the same verified mod contents.
 
-**November 11 refresh:** lowHDmain and lowHDpartial include the latest environment and object asset updates. All five variants include the gold screen and panel badges and rectangular player-count markers.
+**November 11 refresh:** Includes the latest lowHDmain and lowHDpartial files. All five variants include the gold screen and panel badges and rectangular player-count markers.
 
 ## Interface previews
 
@@ -49,6 +49,12 @@ The following panels show generic demo/default settings, not an author's profile
 - Compact TZ/D-Clone information from [d2emu.com](https://d2emu.com).
 - Bundled lowHDmain, lowHDfiller, lowHDmin, lowHDpartial and QoL mods.
 - Four dark palettes, twenty interface languages and project-verified updates.
+
+## New in 0.17.3
+
+- Fixed a clipboard timing issue that could paste a verification marker into the lobby game-name field.
+- Verifies password entry before submitting and overlaps password-field checks across followers. A single follower has no extra fixed wait.
+- Bundles the latest lowHDmain and lowHDpartial files alongside lowHDfiller, lowHDmin and QoL. All five match the [standalone mod downloads](https://github.com/celloboy126/lowHD/releases/tag/v2026.11.11.2).
 
 ## New in 0.17.2
 
@@ -103,7 +109,7 @@ the lower right. Source-code archives generated automatically by GitHub are not
 the launcher download. This public repository contains binaries and documentation.
 
 The five bundled mod packages match the checksum-verified
-[lowHD/QoL release](https://github.com/celloboy126/lowHD/releases/tag/v2026.11.11).
+[lowHD/QoL release](https://github.com/celloboy126/lowHD/releases/tag/v2026.11.11.2).
 
 ## Compatibility and script behavior
 
