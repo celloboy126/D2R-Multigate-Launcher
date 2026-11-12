@@ -8,9 +8,11 @@ By **celloboy126**, with Codex.
 **[Download the latest release](https://github.com/celloboy126/D2R-Multigate-Launcher/releases/latest)**
 — choose **Setup.exe** to install or **Portable.zip** to extract and run.
 
+**New in 0.17.9: [Secure online Make/Join](#new--secure-online-makejoin) · [한국어 빠른 설정](#한국어-빠른-설정)**
+
 ## lowHD / QoL mod downloads
 
-**Last updated: November 11, 2026.** Download the standalone mods from the **[lowHD/QoL release Assets](https://github.com/celloboy126/lowHD/releases/tag/v2026.11.11.2)**: [main](https://github.com/celloboy126/lowHD/releases/download/v2026.11.11.2/lowHDmain.zip), [filler](https://github.com/celloboy126/lowHD/releases/download/v2026.11.11.2/lowHDfiller.zip), [min](https://github.com/celloboy126/lowHD/releases/download/v2026.11.11.2/lowHDmin.zip), [partial](https://github.com/celloboy126/lowHD/releases/download/v2026.11.11.2/lowHDpartial.zip), or [QoL](https://github.com/celloboy126/lowHD/releases/download/v2026.11.11.2/QoL.zip). The launcher bundles the same verified mod contents.
+**Last updated: November 11, 2026.** Download the standalone mods from the **[lowHD/QoL release Assets](https://github.com/celloboy126/lowHD/releases/tag/v2026.11.11.2)**: [main](https://github.com/celloboy126/lowHD/releases/download/v2026.11.11.2/lowHDmain.zip), [filler](https://github.com/celloboy126/lowHD/releases/download/v2026.11.11.2/lowHDfiller.zip), [min](https://github.com/celloboy126/lowHD/releases/download/v2026.11.11.2/lowHDmin.zip), [partial](https://github.com/celloboy126/lowHD/releases/download/v2026.11.11.2/lowHDpartial.zip), or [QoL](https://github.com/celloboy126/lowHD/releases/download/v2026.11.11.2/QoL.zip). The launcher bundles all five variants. Its lowHDmin includes the Escape-menu fixes described below.
 
 **November 11 refresh:** Includes the latest lowHDmain and lowHDpartial files. All five variants include the gold screen and panel badges and rectangular player-count markers.
 
@@ -49,6 +51,34 @@ The following panels show generic demo/default settings, not an author's profile
 - Compact TZ/D-Clone information from [d2emu.com](https://d2emu.com).
 - Bundled lowHDmain, lowHDfiller, lowHDmin, lowHDpartial and QoL mods.
 - Four dark palettes, twenty interface languages and project-verified updates.
+
+## New in 0.17.9
+
+### New · Secure online Make/Join
+
+**Enable it in Configure → Make / join → Make-game target → Online · secure panels.** This opt-in mode uses the in-game Party/Create and Help/Join panels supplied by the current bundled lowHD and QoL mods. Panel clients send keyboard shortcuts and paste the fields without OCR, badge checks, or screen captures.
+
+1. Start each participating character in an online game with panels closed. From the title screen, you can use Broadcast to advance the accounts manually together, then turn Broadcast off.
+2. In Make / join, match **Party panel hotkey** and **Help panel hotkey** to your in-game bindings. The defaults are **P** and **H**. You can also enable **Use the regular lobby workflow for the active host** for faster hosting.
+3. Turn on Follow and press **Ctrl+Space**. Enter the exact destination game name and password the first time. Later presses increment and paste the full name. **Ctrl+J** brings followers into the last requested game. **Ctrl+Shift+Space** clears the session details so the next Ctrl+Space asks again.
+4. Check the thumbnails or player count for arrivals. Secure panel clients submit the request without verifying that the server accepted it.
+
+The panel interval is adjustable and defaults to 250 ms. Follower grace, stagger, parallel preparation, exclusions, and benching still apply. Routine Ctrl+Space overlays can be turned off while errors and reset messages remain visible.
+
+### 한국어 빠른 설정
+
+**설정 → 방 만들기 / 참가 → 방 만들기 방식 → 온라인 · 안정 모드 (패널)**을 선택하세요.
+
+- 최신 lowHD 또는 QoL 모드를 사용하고, 참여할 캐릭터를 모두 온라인 방에 입장시킨 뒤 패널을 닫아 주세요. 타이틀 화면에서 시작한다면 브로드캐스트로 함께 입장한 뒤 브로드캐스트를 끄면 됩니다.
+- **파티 패널 단축키**와 **도움말 패널 단축키**를 게임 설정과 맞추세요. 기본값은 **P**와 **H**입니다. 방장만 기존 대기실 방식으로 진행하도록 설정할 수도 있습니다.
+- 따라가기 기능을 켜고 **Ctrl+Space**를 누르세요. 처음에는 만들거나 참가할 방 이름과 비밀번호를 직접 입력합니다. 이후에는 방 번호가 자동으로 올라갑니다. **Ctrl+Shift+Space**를 누르면 다음 Ctrl+Space에서 방 정보를 다시 입력할 수 있습니다.
+- 패널 방식은 화면을 읽거나 입장 성공 여부를 확인하지 않습니다. 썸네일 또는 방 인원수로 입장을 확인해 주세요.
+
+### Other improvements
+
+- First in-game arrival now has up to 15 seconds for confirmation in regular Make/Join. Successful arrivals still advance immediately.
+- Make/Join settings place follower grace and stagger side by side. Diagnostics remain available next to the language selector.
+- Updated translations for secure Make/Join, related settings, and status messages, with a dedicated Korean wording pass.
 
 ## New in 0.17.8
 
