@@ -50,6 +50,15 @@ The following panels show generic demo/default settings, not an author's profile
 - Bundled lowHDmain, lowHDfiller, lowHDmin, lowHDpartial and QoL mods.
 - Four dark palettes, twenty interface languages and project-verified updates.
 
+## New in 0.17.8
+
+- Fixed the bundled lowHDmin Escape menus so Save and Exit is selected by default and all Garden menu buttons share one keyboard focus group. Also corrected large-font party badge scaling and unavailable waypoint labels in lowHDmin.
+- Improved follower exits for Ctrl+Space and Ctrl+J. The launcher checks that the Escape menu is open and Save and Exit is selected before submitting. A follower that cannot exit no longer prevents the others from joining.
+- Reduced unnecessary waiting before follower preparation and added optional spacing between follower join submissions. Spacing defaults to off.
+- Title-screen followers now use timed background keyboard input. Background Enter temporarily releases held Ctrl, Shift, and Alt. Diagnostics record title input and focus changes.
+
+If you already have lowHDmin installed, apply the refreshed mod from the launcher and restart the affected Diablo II: Resurrected windows to load the updated layouts.
+
 ## New in 0.17.7
 
 - Password verification now reads the full lobby field so a small first asterisk near the edge can be counted. With OCR enabled, the count must match the pasted password length.
