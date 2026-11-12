@@ -50,6 +50,12 @@ The following panels show generic demo/default settings, not an author's profile
 - Bundled lowHDmain, lowHDfiller, lowHDmin, lowHDpartial and QoL mods.
 - Four dark palettes, twenty interface languages and project-verified updates.
 
+## New in 0.17.6
+
+- Lobby joins verify that the password paste registered. D2R validates the actual password.
+- Ctrl+J tries the saved password even if the on-screen mask appears to have a different number of characters.
+- Parking can recognize the requested game by its name and password presence when the exact mask count is unclear. Repeat joins still reuse previously verified passwords.
+
 ## New in 0.17.5
 
 - Follow uses the configured default game password when one is saved, even if the main account's lobby password field looks empty. The main account's Create password is left as entered.
