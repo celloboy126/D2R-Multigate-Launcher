@@ -8,13 +8,17 @@ By **celloboy126**, with Codex.
 **[Download the latest release](https://github.com/celloboy126/D2R-Multigate-Launcher/releases/latest)**
 — choose **Setup.exe** to install or **Portable.zip** to extract and run.
 
-**New in 0.17.9: [Secure online Make/Join](#new--secure-online-makejoin) · [한국어 빠른 설정](#한국어-빠른-설정)**
+**0.17.9: [Secure online Make/Join](#new--secure-online-makejoin) · [한국어 빠른 설정](#한국어-빠른-설정)**
+
+**[한국어 설치 및 문제 해결 안내](README.ko.md)**
+
+**New in 0.17.10:** Regular follow verifies the full game name and can retry a game-unavailable error. Set the interval and limit under Configure → Make / join.
 
 ## lowHD / QoL mod downloads
 
-**Last updated: November 11, 2026.** Download the standalone mods from the **[lowHD/QoL release Assets](https://github.com/celloboy126/lowHD/releases/tag/v2026.11.11.2)**: [main](https://github.com/celloboy126/lowHD/releases/download/v2026.11.11.2/lowHDmain.zip), [filler](https://github.com/celloboy126/lowHD/releases/download/v2026.11.11.2/lowHDfiller.zip), [min](https://github.com/celloboy126/lowHD/releases/download/v2026.11.11.2/lowHDmin.zip), [partial](https://github.com/celloboy126/lowHD/releases/download/v2026.11.11.2/lowHDpartial.zip), or [QoL](https://github.com/celloboy126/lowHD/releases/download/v2026.11.11.2/QoL.zip). The launcher bundles all five variants. Its lowHDmin includes the Escape-menu fixes described below.
+**Last updated: November 12, 2026.** Download the standalone mods from the **[lowHD/QoL release Assets](https://github.com/celloboy126/lowHD/releases/tag/v2026.11.12)**: [main](https://github.com/celloboy126/lowHD/releases/download/v2026.11.12/lowHDmain.zip), [filler](https://github.com/celloboy126/lowHD/releases/download/v2026.11.12/lowHDfiller.zip), [min](https://github.com/celloboy126/lowHD/releases/download/v2026.11.12/lowHDmin.zip), [partial](https://github.com/celloboy126/lowHD/releases/download/v2026.11.12/lowHDpartial.zip), or [QoL](https://github.com/celloboy126/lowHD/releases/download/v2026.11.12/QoL.zip). The launcher bundles all five variants. Its lowHDmin includes the Escape-menu fixes described below.
 
-**November 11 refresh:** Includes the latest lowHDmain and lowHDpartial files. All five variants include the gold screen and panel badges and rectangular player-count markers.
+**November 12 refresh:** lowHDpartial ships 16 empty cinematic video/audio files to avoid copying about 2.15 GiB of duplicate assets during layering. All five variants include the gold screen and panel badges and rectangular player-count markers.
 
 ## Interface previews
 
@@ -111,13 +115,13 @@ If you already have lowHDmin installed, apply the refreshed mod from the launche
 
 - Followers and parked accounts reuse the lobby password after a successful join when the next game uses the same password. This skips focusing, pasting into, and checking the password field on repeat joins.
 - First joins and password changes still verify the field. A join error resets reuse so the next attempt can enter the password again.
-- Bundled lowHDmain files match the current mod. The [standalone mod downloads](https://github.com/celloboy126/lowHD/releases/tag/v2026.11.11.2) are unchanged.
+- Bundled lowHDmain files match the current mod. The [standalone mod downloads](https://github.com/celloboy126/lowHD/releases/tag/v2026.11.12) are unchanged.
 
 ## New in 0.17.3
 
 - Fixed a clipboard timing issue that could paste a verification marker into the lobby game-name field.
 - Verifies password entry before submitting and overlaps password-field checks across followers. A single follower has no extra fixed wait.
-- Bundles the latest lowHDmain and lowHDpartial files alongside lowHDfiller, lowHDmin and QoL. All five match the [standalone mod downloads](https://github.com/celloboy126/lowHD/releases/tag/v2026.11.11.2).
+- Bundles the latest lowHDmain and lowHDpartial files alongside lowHDfiller, lowHDmin and QoL. All five match the [standalone mod downloads](https://github.com/celloboy126/lowHD/releases/tag/v2026.11.12).
 
 ## New in 0.17.2
 
@@ -172,7 +176,7 @@ the lower right. Source-code archives generated automatically by GitHub are not
 the launcher download. This public repository contains binaries and documentation.
 
 The five bundled mod packages match the checksum-verified
-[lowHD/QoL release](https://github.com/celloboy126/lowHD/releases/tag/v2026.11.11.2).
+[lowHD/QoL release](https://github.com/celloboy126/lowHD/releases/tag/v2026.11.12).
 
 ## Compatibility and script behavior
 
