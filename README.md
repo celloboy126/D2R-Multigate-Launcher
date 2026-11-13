@@ -14,6 +14,8 @@ By **celloboy126**, with Codex.
 
 **New in 0.17.10:** Regular follow verifies the full game name and can retry a game-unavailable error. Set the interval and limit under Configure → Make / join.
 
+**New in 0.17.11:** Batched follower inputs, password reuse across regular joins, and secure follower submission while the lobby host loads. [Release notes](https://github.com/celloboy126/D2R-Multigate-Launcher/releases/tag/v0.17.11)
+
 ## lowHD / QoL mod downloads
 
 **Last updated: November 12, 2026.** Download the standalone mods from the **[lowHD/QoL release Assets](https://github.com/celloboy126/lowHD/releases/tag/v2026.11.12)**: [main](https://github.com/celloboy126/lowHD/releases/download/v2026.11.12/lowHDmain.zip), [filler](https://github.com/celloboy126/lowHD/releases/download/v2026.11.12/lowHDfiller.zip), [min](https://github.com/celloboy126/lowHD/releases/download/v2026.11.12/lowHDmin.zip), [partial](https://github.com/celloboy126/lowHD/releases/download/v2026.11.12/lowHDpartial.zip), or [QoL](https://github.com/celloboy126/lowHD/releases/download/v2026.11.12/QoL.zip). The launcher bundles all five variants. Its lowHDmin includes the Escape-menu fixes described below.
